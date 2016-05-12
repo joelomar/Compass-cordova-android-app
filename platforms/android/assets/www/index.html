@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/compass.css">
+        <title>Compass</title>
+    </head>
+    <body>
+        <p>Idea: device orientation. Project tools: Node.js and Cordova, Author: joel vazquez</p>
+         
+        <h3>0: Norte | 90: Este | 180: Sur | 270: Oeste</h3>
+        <div id="compassBox">c:</div>
+        <br></br>
+        <div id="pop_box"></div>
+        <input type="button" id="but_lat" value="Latitude and Longitude">
+        <input type="button" id="but_acel" value="Device Aceleration">
+        <div id="geo_box"></div>
+        <div id="acel_box"></div>
+        
+
+        
+        <script type="text/javascript" src="cordova.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/app.js" charset="utf-8"></script>
+        
+
+        
+    </body>
+</html>
